@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#Questions {
+  width: 40vw;
+  margin-left: 30vw;
+  overflow: hidden;
+  border: 1px solid #727272;
+  border-radius: 10px;
+  margin-top: 10px;   
+  box-shadow: 10px;   
+  padding-top: 14px;   
+  background-color: antiquewhite;
+  font-family: sans-serif;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: normal;
+  word-break: break-word;
+}
+#resultBtn {
+  cursor: pointer;
+  position: relative;
+  margin: 20px;
+  font-size: 18px;
+  border: 1px solid #727272;
+  border-radius: 6px;
+}
+#resultDisplay {
+  border: 1px solid #969696;
+  margin: 20px 38vw;
+  border-radius: 10px;
+  background: transparent;
+}
+#radioBtn {
+  cursor: pointer;
+  margin: 10px;
+}
+#optionsList {
+  position: absolute;
+  padding-top: 7px;
+}
